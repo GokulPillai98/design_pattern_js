@@ -1,0 +1,20 @@
+{
+  "name": "design_pattern_js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Implementation of design patterns using javascript",
+  "main": "builder_dp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GokulPillai98/design_pattern_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GokulPillai98/design_pattern_js/issues"
+  },
+  "homepage": "https://github.com/GokulPillai98/design_pattern_js#readme"
+}

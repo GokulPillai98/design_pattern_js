@@ -39,9 +39,22 @@ class UserBuilder {
 }
 
 console.log(new UserBuilder('Kiran').build()) /// we eliminated the undefines we passed to the object before
-console.log(new UserBuilder('Kiran').setAddress(new Address('Hosur', '1234567')).build()) // we managed to set name and address without passing undefined 
+console.log(new UserBuilder('Kiran').setAddress(new Address('Hosur', 1234567)).build()) // we managed to set name and address without passing undefined 
 // and the chaning became possible because because we returned this
 
+/// New Way to implement it in javascript
 
+class UserJSWay {
+    constructor(user, {age, address} = {}) {
+        this.user = user;
+        this.age = age;
+        this.address = address
+        return [this.user, this.age, this.address]
+    }
+}
+
+console.log(new UserJSWay('Gokul'))
+console.log(new UserJSWay('Gokul', {age: 12}))
+console.log(new UserJSWay('Gokul', {address: new Address('Leadmill', 123456789)}))
 
 

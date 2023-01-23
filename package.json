@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GokulPillai98/design_pattern_js/issues"
   },
-  "homepage": "https://github.com/GokulPillai98/design_pattern_js#readme"
+  "homepage": "https://github.com/GokulPillai98/design_pattern_js#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
